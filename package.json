@@ -1,0 +1,35 @@
+{
+  "name": "atom-fcf-plugin",
+  "main": "./lib/atom-fcf-plugin",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "atom-fcf-plugin:create-module",
+      "atom-fcf-plugin:create-module-in-directory",
+      "atom-fcf-plugin:create-package",
+      "atom-fcf-plugin:create-package-in-directory",
+      "atom-fcf-plugin:create-projection",
+      "atom-fcf-plugin:create-projection-in-directory",
+      "atom-fcf-plugin:create-template",
+      "atom-fcf-plugin:create-template-in-directory",
+      "atom-fcf-plugin:create-template-file",
+      "atom-fcf-plugin:create-template-file-in-directory",
+      "atom-fcf-plugin:create-wrapper",
+      "atom-fcf-plugin:create-wrapper-in-directory",
+      "atom-fcf-plugin:create-hooks",
+      "atom-fcf-plugin:create-hooks-in-directory",
+      "atom-fcf-plugin:create-receive",
+      "atom-fcf-plugin:create-receive-in-directory"
+    ]
+  },
+  "repository": "https://github.com/fcfdev/atom-fcf-plugin.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

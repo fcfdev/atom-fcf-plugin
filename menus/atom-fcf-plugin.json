@@ -1,0 +1,95 @@
+{
+  "context-menu": {
+    ".tree-view .file": [
+      {
+        "type": "separator"
+      },
+      {
+        "label": "FCF",
+        "submenu": [
+          {
+            "label": "Create module",
+            "command": "atom-fcf-plugin:create-module"
+          },
+          {
+            "label": "Create package",
+            "command": "atom-fcf-plugin:create-package"
+          },
+          {
+            "label": "Create projection",
+            "command": "atom-fcf-plugin:create-projection"
+          },
+          {
+            "label": "Create template",
+            "command": "atom-fcf-plugin:create-template"
+          },
+          {
+            "label": "Create template file",
+            "command": "atom-fcf-plugin:create-template-file"
+          },
+          {
+            "label": "Create wrapper file",
+            "command": "atom-fcf-plugin:create-wrapper-file"
+          },
+          {
+            "label": "Create hooks file",
+            "command": "atom-fcf-plugin:create-hooks-file"
+          },
+          {
+            "label": "Create receive file",
+            "command": "atom-fcf-plugin:create-receive-file"
+          }
+        ]
+      },
+      {
+        "type": "separator"
+      }
+    ],
+    ".tree-view .directory": [
+      {
+        "type": "separator"
+      },
+      {
+        "label": "FCF",
+        "submenu": [
+          {
+            "label": "Create module",
+            "command": "atom-fcf-plugin:create-module-in-directory"
+          },
+          {
+            "label": "Create package",
+            "command": "atom-fcf-plugin:create-package-in-directory"
+          },
+          {
+            "label": "Create projection",
+            "command": "atom-fcf-plugin:create-projection-in-directory"
+          },
+          {
+            "label": "Create template",
+            "command": "atom-fcf-plugin:create-template-in-directory"
+          },
+          {
+            "label": "Create template file",
+            "command": "atom-fcf-plugin:create-template-file-in-directory"
+          },
+          {
+            "label": "Create wrapper file",
+            "command": "atom-fcf-plugin:create-wrapper-in-directory"
+          },
+          {
+            "label": "Create hooks file",
+            "command": "atom-fcf-plugin:create-hooks-in-directory"
+          },
+          {
+            "label": "Create receive file",
+            "command": "atom-fcf-plugin:create-receive-in-directory"
+          }
+        ]
+      },
+      {
+        "type": "separator"
+      }
+    ]
+  },
+  "menu": []
+}
